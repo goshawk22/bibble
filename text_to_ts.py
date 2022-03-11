@@ -1,5 +1,5 @@
 '''
-Converts a text file created by bible_unique_sort into a ts file to be appended to wordlist.ts
+Converts a text file created by bible_unique_sort into a ts file to be appended to wordlist.ts and validGuess.ts
 '''
 
 with open('bible_words_5.txt', 'r') as handle:
