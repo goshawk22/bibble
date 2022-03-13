@@ -8,7 +8,7 @@ import json
 import codecs
 import string
 
-with open("en_kjv.json") as handle:
+with open("bibble_files/en_kjv.json") as handle:
     bible = json.load(codecs.open('en_kjv.json', 'r', 'utf-8-sig'))
 
 bible_words = []
@@ -25,6 +25,6 @@ for book in bible:
     
     print("Processed " + book['name'])
 
-with open('bible_words.txt', 'w') as bible_words_file:
+with open('bibble_files/bible/bible_words.txt', 'w') as bible_words_file:
     for word in bible_words:
         bible_words_file.write('%s\n' % word)

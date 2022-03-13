@@ -2,7 +2,10 @@
 Converts a text file created by bible_unique_sort into a ts file to be appended to wordlist.ts and validGuess.ts
 '''
 
-with open('bible_words_5.txt', 'r') as handle:
+# Length of word to use
+word_length = 5
+path = 'bibble_files/bible/bible_words_' + str(word_length) + '.txt'
+with open(path, 'r') as handle:
     words = handle.readlines()
 
 print(len(words))

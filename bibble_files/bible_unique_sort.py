@@ -3,10 +3,7 @@ Reads the text file created by process_json.py to get information about the leng
 Then saves the words into separate lists based on the length of the word
 '''
 
-test = "hi"
-print(len(list(test)))
-
-with open('bible_words.txt', 'r') as handle:
+with open('bibble_files/bible/bible_words.txt', 'r') as handle:
     bible_words = handle.readlines()
 
 print(len(bible_words))
@@ -31,7 +28,7 @@ for i in sorted(count):
 print(sorted_count)
 
 for length in sorted(count):
-    file_name = "bible_words_" + str(length) + ".txt"
+    file_name = "bibble_files/bible/bible_words_" + str(length) + ".txt"
     text_file = open(file_name, 'w')
     for word in bible_words:
         letters = list(word)
