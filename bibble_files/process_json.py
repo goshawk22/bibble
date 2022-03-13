@@ -8,8 +8,7 @@ import json
 import codecs
 import string
 
-with open("bibble_files/en_kjv.json") as handle:
-    bible = json.load(codecs.open('en_kjv.json', 'r', 'utf-8-sig'))
+bible = json.load(codecs.open('bibble_files/en_kjv.json', 'r', 'utf-8-sig'))
 
 bible_words = []
 
