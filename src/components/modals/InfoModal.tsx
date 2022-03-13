@@ -65,6 +65,13 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
+      Too hard? Try out a easier version {' '}
+        <a
+          href="https://bibble.goshawk22.uk"
+          className="underline font-bold"
+        >
+          here.
+        </a>{' '}
         This is an open source version of the word guessing game we all know and
         love -{' '}
         <a
