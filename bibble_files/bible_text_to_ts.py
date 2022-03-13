@@ -3,7 +3,7 @@ Converts a text file created by bible_unique_sort into a ts file to be appended 
 '''
 
 # Length of word to use
-word_length = 5
+word_length = 7
 path = 'bibble_files/bible/bible_words_' + str(word_length) + '.txt'
 with open(path, 'r') as handle:
     words = handle.readlines()
