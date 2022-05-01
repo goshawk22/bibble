@@ -7,13 +7,34 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+    target-branch: "bibble"
 
   - package-ecosystem: "docker" # See documentation for possible values
     directory: "/docker" # Location of package manifests
     schedule:
       interval: "daily"
+    target-branch: "bibble"
 
   - package-ecosystem: "npm" # see documentation for possible values
     directory: "/" # location of package manifests
     schedule:
       interval: "daily"
+    target-branch: "bibble"
+
+  - package-ecosystem: github-actions
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+    target-branch: "bibble_hard"
+
+  - package-ecosystem: "docker" # See documentation for possible values
+    directory: "/docker" # Location of package manifests
+    schedule:
+      interval: "daily"
+    target-branch: "bibble_hard"
+
+  - package-ecosystem: "npm" # see documentation for possible values
+    directory: "/" # location of package manifests
+    schedule:
+      interval: "daily"
+    target-branch: "bibble_hard"
