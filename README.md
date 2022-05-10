@@ -44,6 +44,7 @@ Open [http://localhost](http://localhost) in browser.
 - [Boludle](https://www.boludle.com/): Argentinian
 - [Gerdle](https://gerdle.vext.co.uk/): Cornish (Kernowek)
 - [Jwordle](https://jwordle.vercel.app/): Japanese
+- [Katadel](https://katadel.vercel.app/): Jawi (Malay Arabic script)
 - [Keclap](https://keclap.xyz/): Sundanese
 - [Kelmaly](https://kelmaly.com/): Arabic
 - [Kerdle](https://kerdle.vercel.app/): Cornish/Kernewek (Standard Written Form)
@@ -104,7 +105,9 @@ Open [http://localhost](http://localhost) in browser.
 - [Marvle](https://marvle.herokuapp.com): Superhero (Marvel and DC) themed
 - [Movie Wordle](https://movie-wordle.vercel.app): Bollywood
 - [Murdle](https://murdle.vercel.app/): Spooky hangman mashup
+- [Pawnle](https://pawnle.vercel.app/): Parks and Recreation
 - [Poker Handle](https://kikychow.github.io/poker-wordle/): Poker
+- [Poker Handle 2](https://poker-handle2.com/): Poker
 - [Quettale](https://quettale.vercel.app/): Quenya, Elven language in LOTR
 - [Radiole](https://radiole.vercel.app/): Radio-themed (for World Radio Day)
 - [RareWordle](https://rwordle.vercel.app/): Word guessing with multiple solutions each day where the goal is to find the most obscure one. It is inspired by the TV game show Pointless.
